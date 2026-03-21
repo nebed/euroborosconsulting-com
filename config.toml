@@ -1,0 +1,7 @@
+baseURL = 'https://euroborosconsulting.com/'
+languageCode = 'en-us'
+title = 'Euroboros Consulting'
+
+[params]
+  description = "Tech consulting services: DevOps, Cloud, Software Architecture."
+  location = "Estonia"

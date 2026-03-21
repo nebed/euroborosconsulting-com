@@ -1,0 +1,132 @@
+{{ define "main" }}
+
+<!-- Hero Section -->
+<section style="padding: 10rem 0 8rem; text-align: center;">
+    <div class="container">
+        <div style="display: inline-block; padding: 0.25rem 0.75rem; border-radius: 99px; border: 1px solid var(--border-color); background: rgba(255,255,255,0.03); font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 1.5rem;">
+            Precision Engineering. Simplicity & Reliability.
+        </div>
+        <h1 style="font-size: clamp(2.5rem, 5vw, 4.5rem); line-height: 1.1; margin-bottom: 1.5rem; background: linear-gradient(to bottom right, #fff 30%, #a5a5a5); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+            Infrastructure built <br> for hyper-scale.
+        </h1>
+        <p style="font-size: 1.25rem; max-width: 600px; margin: 0 auto 2.5rem;">
+            We provide elite DevOps engineering and cloud architecture for companies that demand reliability, security, and velocity.
+        </p>
+        <div style="display: flex; gap: 1rem; justify-content: center;">
+            <a href="mailto:info@euroborosconsulting.com" class="btn btn-primary">Start a Project</a>
+            <a href="#expertise" class="btn btn-ghost">View Expertise</a>
+        </div>
+    </div>
+</section>
+
+<!-- Social Proof / Logos -->
+<section style="padding: 2rem 0; border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+    <div class="container" style="display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; opacity: 0.5; filter: grayscale(1);">
+        <!-- Placeholder SVGs for tech partners (fake scale) -->
+        <span style="font-weight: 700; font-size: 1.2rem; display: flex; align-items: center; gap: 0.5rem;"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zm0 9l2-1 8 4-10 5-10-5 8-4 2 1z"/></svg> CLOUD NATIVE</span>
+        <span style="font-weight: 700; font-size: 1.2rem; display: flex; align-items: center; gap: 0.5rem;"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M7 2h10l-3.5 10H17l-10 10 3.5-10H7l3.5-10z"/></svg> INFRASTRUCTURE AS CODE</span>
+        <span style="font-weight: 700; font-size: 1.2rem; display: flex; align-items: center; gap: 0.5rem;"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg> PLATFORM ENGINEERING</span>
+    </div>
+</section>
+
+<!-- Bento Grid Services -->
+<section id="expertise" style="padding: 8rem 0;">
+    <div class="container">
+        <h2 style="font-size: 2.5rem; margin-bottom: 3rem; text-align: center;">Engineering the invisible.</h2>
+        
+        <div class="grid grid-3">
+            <!-- Large Card spans 2 cols -->
+            <div class="card" style="grid-column: span 2;">
+                <div class="card-icon">
+                    <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path></svg>
+                </div>
+                <h3>Cloud Architecture</h3>
+                <p>We design multi-region, high-availability cloud environments that scale automatically. No single points of failure. Just resilience.</p>
+                <div style="margin-top: 2rem; width: 100%; height: 100px; background: linear-gradient(90deg, #111, #222); border-radius: 8px; border: 1px solid var(--border-color); display: flex; align-items: center; justify-content: center; font-family: monospace; font-size: 0.8rem; color: #666;">
+                    [ region: us-east-1 // status: active ]
+                </div>
+            </div>
+
+            <!-- Small Card 1 -->
+            <div class="card">
+                <div class="card-icon">
+                    <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z"></path></svg>
+                </div>
+                <h3>DevOps Automation</h3>
+                <p>CI/CD pipelines that deploy in minutes, not hours. Immutable infrastructure.</p>
+            </div>
+
+            <!-- Small Card 2 -->
+            <div class="card">
+                <div class="card-icon">
+                    <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                </div>
+                <h3>Software Strategy</h3>
+                <p>Decouple your monolith. We help plan and execute microservices migrations.</p>
+            </div>
+
+            <!-- Large Card spans 2 cols -->
+            <div class="card" style="grid-column: span 2;">
+                <div class="card-icon">
+                    <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                </div>
+                <h3>Staff Augmentation</h3>
+                <p>Need elite talent? We provide senior DevOps engineers and architects to embed within your teams and accelerate delivery.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Methodology Section -->
+<section id="methodology" style="padding: 6rem 0; border-top: 1px solid var(--border-color);">
+    <div class="container" style="text-align: center;">
+        <h2 style="font-size: 2.5rem; margin-bottom: 3rem;">How we work.</h2>
+        <div class="grid grid-3">
+            <div style="padding: 2rem;">
+                <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--text-primary);">Audit</h3>
+                <p>We analyze your current infrastructure, identifying bottlenecks and security vulnerabilities.</p>
+            </div>
+            <div style="padding: 2rem;">
+                <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--text-primary);">Architect</h3>
+                <p>We design a cloud-native solution tailored to your specific business requirements.</p>
+            </div>
+            <div style="padding: 2rem;">
+                <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--text-primary);">Automate</h3>
+                <p>We implement Infrastructure as Code and CI/CD pipelines for seamless deployment.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="company">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <a href="/" class="brand" style="margin-bottom: 1rem; color: #fff;">
+                    <div class="brand-mark">E</div> 
+                    EUROBOROS
+                </a>
+                <p>Tallinn, Estonia • Remote Worldwide</p>
+                <br>
+                <p style="opacity: 0.5;">&copy; {{ now.Format "2006" }} Euroboros Consulting OÜ.</p>
+            </div>
+            <div class="footer-col">
+                <h4>SITEMAP</h4>
+                <ul>
+                    <li><a href="#expertise">Services</a></li>
+                    <li><a href="#methodology">Process</a></li>
+                    <li><a href="mailto:info@euroborosconsulting.com">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>LEGAL</h4>
+                <ul>
+                    <li><a href="/privacy">Privacy</a></li>
+                    <li><a href="/terms">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+{{ end }}
